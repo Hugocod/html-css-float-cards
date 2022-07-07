@@ -1,0 +1,135 @@
+/* general styles */
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.2rem;
+  margin: 0px;
+  padding: 0;
+
+  font-family: "M PLUS Rounded 1c", sans-serif;
+}
+
+/* / general styles */
+
+/* wrapper */
+
+#wrapper > h1 {
+  font-size: 2rem;
+  text-align: center;
+
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: 900;
+  margin: 50px;
+
+  color: #e53170;
+}
+
+#wrapper > p {
+  font-size: 0.8rem;
+  text-align: center;
+
+  font-family: sans-serif;
+  padding: 15px;
+}
+
+#wrapper {
+  width: 1024px;
+  height: fit-content;
+  margin: 0 auto;
+}
+
+#wrapper::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* / wrapper */
+
+/* card container */
+
+.card-container {
+  height: fit-content;
+  width: calc(100% / 3 - 20px);
+
+  margin: 10px;
+  background-color: rgb(0, 0, 0);
+
+  float: left;
+
+  -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.27);
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.27);
+}
+
+.card-container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.picture {
+  height: 80px;
+  width: 80px;
+
+  margin-right: 20px;
+
+  background-size: cover;
+
+  float: left;
+}
+
+.picture-1 {
+  background-image: url(img/female1.png);
+}
+.picture-2 {
+  background-image: url(img/female2.png);
+}
+.picture-3 {
+  background-image: url(img/female3.png);
+}
+.picture-4 {
+  background-image: url(img/male1.png);
+}
+.picture-5 {
+  background-image: url(img/male2.png);
+}
+.picture-6 {
+  background-image: url(img/male3.png);
+}
+
+.info {
+  height: fit-content;
+  /*  background-color: aqua; */
+
+  margin: 10px 10px 10px 10px;
+}
+
+.info h1 {
+  font-size: 1rem;
+  text-transform: uppercase;
+
+  color: white;
+}
+
+.info h3 {
+  font-size: 0.7rem;
+  color: white;
+}
+
+.info :last-child {
+  font-size: 0.7rem;
+
+  color: #00a9f4;
+}
+
+/* card container */
