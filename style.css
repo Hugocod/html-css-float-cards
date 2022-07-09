@@ -112,6 +112,8 @@ h6 {
   /*  background-color: aqua; */
 
   margin: 10px 10px 10px 10px;
+
+  float: left;
 }
 
 .info h1 {
